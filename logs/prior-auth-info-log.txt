@@ -1,0 +1,7 @@
+2022-02-27 20:57:19,474 INFO org.springframework.boot.StartupInfoLogger [main] Starting PriorAuthBackendApplication using Java 17.0.2 on DAVAUJ2-C02DL14JMD6P with PID 76760 (/Users/davauj2/code/Medtronic/code/PriorAuthPrototype/java-backend/target/classes started by davauj2 in /Users/davauj2/code/Medtronic/code/PriorAuthPrototype/java-backend)
+2022-02-27 20:57:19,476 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-27 20:57:22,847 INFO org.springframework.boot.StartupInfoLogger [main] Started PriorAuthBackendApplication in 3.713 seconds (JVM running for 4.156)
+2022-02-27 20:57:44,612 INFO StudentsController [http-nio-8080-exec-1] INFO MESSAGE
+2022-02-27 22:25:41,415 INFO org.springframework.boot.StartupInfoLogger [main] Starting PriorAuthBackendApplication using Java 17.0.2 on DAVAUJ2-C02DL14JMD6P with PID 80855 (/Users/davauj2/code/Medtronic/code/PriorAuthPrototype/java-backend/target/classes started by davauj2 in /Users/davauj2/code/Medtronic/code/PriorAuthPrototype/java-backend)
+2022-02-27 22:25:41,416 INFO org.springframework.boot.SpringApplication [main] No active profile set, falling back to default profiles: default
+2022-02-27 22:25:45,049 INFO org.springframework.boot.StartupInfoLogger [main] Started PriorAuthBackendApplication in 4.179 seconds (JVM running for 5.849)

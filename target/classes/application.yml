@@ -1,0 +1,26 @@
+
+spring:
+  datasource:
+    initialization-mode=always:
+    username: sa
+    password: p@55w0Rd
+    url: jdbc:sqlserver://localhost;databaseName=prior_auth_prototype
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.SQLServer2012Dialect
+        show_sql: 'true'
+        format_sql: 'true'
+    defer-datasource-initialization=true:
+  mvc:
+    pathmatch:
+      matching-strategy: ant_path_matcher
+server:
+  port: 8080
+
+priorauth:
+  app:
+    jwtSecret: priorAuth2022
+    jwtExpirationMs: 86400000
