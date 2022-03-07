@@ -55,11 +55,11 @@ public class AppSecurityConfig extends WebSecurityConfigurerAdapter {
                 .authorizeRequests()
                 //White listed
                 .antMatchers("/api/v1/auth/**").permitAll()
+                //Temp White List for Swagger .. TODO: Need to fix SwaggerConfig so that it challenges for JWT
                 .antMatchers("/swagger-ui/**").permitAll()
                 .antMatchers("/api/v1/public/all/**").permitAll()
                 .antMatchers("/swagger-resources/**").permitAll()
                 .antMatchers("/v3/api-docs/**").permitAll()
-
                 .anyRequest().authenticated();
         http.addFilterBefore(authenticationJwtTokenFilter(), UsernamePasswordAuthenticationFilter.class);
     }
