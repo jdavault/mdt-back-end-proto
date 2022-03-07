@@ -18,7 +18,7 @@ target/
 
 
 # Log file
-log/
+logs/
 *.log
 
 # BlueJ files
