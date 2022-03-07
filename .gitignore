@@ -5,8 +5,20 @@
 ### Java ###
 # Compiled class file
 *.class
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
 
 # Log file
+log/
 *.log
 
 # BlueJ files
